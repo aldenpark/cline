@@ -1,6 +1,6 @@
 {
 	"name": "claude-dev",
-	"displayName": "Cline",
+	"displayName": "Cline (aldenpark)",
 	"description": "Autonomous coding agent right in your IDE, capable of creating/editing files, running commands, using the browser, and more with your permission every step of the way.",
 	"version": "4.1.23",
 	"icon": "assets/icons/icon.png",
@@ -11,7 +11,7 @@
 		"name": "Cline Bot Inc."
 	},
 	"license": "Apache-2.0",
-	"publisher": "saoudrizwan",
+	"publisher": "aldenpark",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cline/cline"
