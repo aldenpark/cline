@@ -1,6 +1,11 @@
+
+# VS Code launched from the desktop may not inherit PATH entries from shell profiles.
+export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
+
 if ! command -v gitleaks >/dev/null 2>&1; then
 	echo "gitleaks is required for the pre-commit secret scan."
-	echo "Install it with: brew install gitleaks"
+	echo "Install it with: ./setup-vscode-dev.sh (from the repository root)"
+	echo "Or install it manually and ensure it is on PATH."
 	echo "Other install options: https://github.com/gitleaks/gitleaks#installing"
 	exit 1
 fi
